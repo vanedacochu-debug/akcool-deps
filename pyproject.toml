@@ -1,0 +1,11 @@
+[project]
+name = "akcool_deps"
+version = "0.0.1"
+description = "APT dependencies for AKCOOL"
+
+[deploy.dependencies.apt]
+packages = [
+    "cups",
+    "libcups2-dev",
+    "python3-cups",
+]
