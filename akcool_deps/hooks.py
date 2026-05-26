@@ -1,1 +1,5 @@
-
+app_name = "akcool_deps"
+app_title = "AKCOOL Dependencies"
+app_publisher = "AKCOOL"
+app_description = "APT dependencies for AKCOOL printing"
+app_version = "0.0.1"
