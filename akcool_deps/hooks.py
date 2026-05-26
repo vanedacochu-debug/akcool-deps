@@ -1,0 +1,6 @@
+app_name = "akcool_deps"
+app_title = "AKCool Dependencies"
+app_publisher = "AKCool"
+app_description = "Dependencies installer"
+app_email = "test@test.com"
+app_license = "MIT"
