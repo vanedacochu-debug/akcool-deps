@@ -1,11 +1,18 @@
 [project]
 name = "akcool_deps"
 version = "0.0.1"
-description = "APT dependencies for AKCOOL"
+dependencies = [
+    "pycups"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [deploy.dependencies.apt]
 packages = [
     "cups",
     "libcups2-dev",
-    "python3-cups",
+    "gcc",
+    "python3-dev"
 ]
