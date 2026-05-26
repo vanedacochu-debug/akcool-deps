@@ -4,3 +4,6 @@ app_publisher = "AKCool"
 app_description = "Dependencies installer"
 app_email = "test@test.com"
 app_license = "MIT"
+
+app_include_css = []
+app_include_js = []
